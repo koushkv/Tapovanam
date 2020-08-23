@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ch_4">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ch4pt1quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="'This Sai has come in order to achieve the supreme task of uniting the entire mankind as one family, through the bond of brotherhood; of affirming and illuming the inner reality of each being in order to reveal the divine which is the basis on which the entire cosmos rests; and of instructing all to recognize the common Divine Heritage that binds man to man, so that man can rid himself of the animal and rise to the divine which is his goal.' \n \n- Baba"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/ch4pt1"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Sai Blossoms" />
+
+            <Button
+                android:id="@+id/ch4pt2"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Pushpagiri Festival" />
+            <Button
+                android:id="@+id/ch4pt3"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="'I am the servitor of all'" />
+
+            <Button
+                android:id="@+id/ch4pt4"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Do Deeds Match Words?" />
+
+            <Button
+                android:id="@+id/ch4pt5"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="The Missing Horse" />
+            <Button
+                android:id="@+id/ch4pt6"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="DIVINE PUPPETEER ACTS THE DANSEUSE" />
+
+            <Button
+                android:id="@+id/ch4pt7"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="The Sting of the Scorpion" />
+
+            <Button
+                android:id="@+id/ch4pt8"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="The Bestower of Knowledge" />
+
+            <Button
+                android:id="@+id/ch4pt9"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Forbearance" />
+            <Button
+                android:id="@+id/ch4pt10"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="'I am Sai Baba'" />
+            <Button
+                android:id="@+id/ch4pt11"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="The Great Annunciation" />
+
+            <Button
+                android:id="@+id/ch4pt12"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="References to Bhagavan Sri Sathya Sai Baba in Ancient Treatises" />
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/ch4pt1shanti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="\nOm Sri Sathya Sai Parabrahmane Namah\n \nOm Shanthi Shanthi Shanthi\n"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ch4pt1end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="End of Chapter 4" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

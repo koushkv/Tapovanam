@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ch_1">
+
+   <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ch1pt1quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="'You cannot see Me, but I am the light you see by. You cannot hear Me, but I am the sound you hear by. You cannot know Me, but I am the truth you live by.' \n \n- Baba"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/ch1pt1"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Entering the Tapovanam" />
+            <Button
+                android:id="@+id/ch1pt2"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Pravanam" />
+            <Button
+                android:id="@+id/ch1pt3"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Suprabhatam" />
+            <Button
+                android:id="@+id/ch1pt4"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Nagara Sankeerthan" />
+            <Button
+                android:id="@+id/ch1pt5"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Sandarshan" />
+            <Button
+                android:id="@+id/ch1pt6"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="'Even Celestial Beings Wait For Me'" />
+            <Button
+                android:id="@+id/ch1pt7"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Pedda Bottu's Experience" />
+            <Button
+                android:id="@+id/ch1pt8"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Raja Reddy's Vision" />
+            <Button
+                android:id="@+id/ch1pt9"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Bhajan" />
+
+            <TextView
+                android:id="@+id/ch1pt1shanti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="\nOm Sri Sathya Sai Parabrahmane Namah\n \nOm Shanthi Shanthi Shanthi\n"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ch1pt1end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="End of Chapter 1" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

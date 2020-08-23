@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ch_12">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ch12pt1quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="'You will understand Me only through My work, that is why sometimes in order to reveal who I am, I Myself show you My 'visiting card', something that you call a miracle... They are neither magical tricks nor siddhic (occult) powers, which can come to everybody with the appropriate discipline and yoga exercises, but My powers to protect, heal and save people and materialize objects originate in God and can be used only by an Avatar. They are in no way designed, disciplined or developed, but flow from cosmic power.' \n \n- Baba"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/ch12pt1"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Super Speciality Hospitals" />
+            <Button
+                android:id="@+id/ch12pt2"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="POTENCY OF PRASADAM" />
+            <Button
+                android:id="@+id/ch12pt3"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="WHO HAS PERFORMED THE SURGERY?" />
+            <Button
+                android:id="@+id/ch12pt4"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="WHY HOSPITAL, IF GOD IS HERE?" />
+            <Button
+                android:id="@+id/ch12pt5"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="TO EACH, A DIFFERENT TREATMENT" />
+
+
+
+
+            <TextView
+                android:id="@+id/ch12pt1shanti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="\nOm Sri Sathya Sai Parabrahmane Namah\n \nOm Shanthi Shanthi Shanthi\n"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ch12pt1end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="End of Chapter 12" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

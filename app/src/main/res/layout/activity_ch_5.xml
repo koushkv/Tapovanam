@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ch_5">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ch4pt1quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="'Whenever there is a languishing of Dharma... I create Myself for it is part of My primal resolution or Sankalpa to protect the spiritual structure of the universe. I lay aside My formless essence and assume a name and a form suited to the purpose for which I come. Whenever evil threats to vanquish good, I have to come and save it from decline.' \n \n- Baba"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/ch5pt1"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="REVITALISATION OF TEMPLES - Badrinath" />
+
+            <Button
+                android:id="@+id/ch5pt2"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Varanasi" />
+
+            <Button
+                android:id="@+id/ch5pt3"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Somnath" />
+
+            <Button
+                android:id="@+id/ch5pt4"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Dwaraka, Srisailam and Pandharpur" />
+
+            <Button
+                android:id="@+id/ch5pt5"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="RESUSCITATION OF VEDIC DHARMA" />
+
+            <Button
+                android:id="@+id/ch5pt6"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="WHO ELSE KNOWS THE RIGHT MUHOORTHAM" />
+
+            <Button
+                android:id="@+id/ch5pt7"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="THE YAJNA KALASAM" />
+
+            <Button
+                android:id="@+id/ch5pt8"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="AYUDHA POOJA" />
+
+
+            <TextView
+                android:id="@+id/ch5pt1shanti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="\nOm Sri Sathya Sai Parabrahmane Namah\n \nOm Shanthi Shanthi Shanthi\n"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ch5pt1end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="End of Chapter 5" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

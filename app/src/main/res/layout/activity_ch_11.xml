@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ch_11">
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ch11pt1quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="'Love is My form, Truth is My breath\nBliss is My food, My life is My message\nExpansion is My life, No reason to love\nNo season for love, No birth, no death' \n \n- Baba"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/ch11pt1"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="LOVE OF A THOUSAND MOTHERS" />
+            <Button
+                android:id="@+id/ch11pt2"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="AGONY MOVES BHAGAVAN" />
+            <Button
+                android:id="@+id/ch11pt3"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="The Flower of Love" />
+            <Button
+                android:id="@+id/ch11pt4"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="'SHED A TEAR FOR ME'" />
+            <Button
+                android:id="@+id/ch11pt5"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Flu Driven Away" />
+            <Button
+                android:id="@+id/ch11pt6"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="SUPREMACY OF SPIRITUAL LEARNING" />
+
+            <Button
+                android:id="@+id/ch11pt7"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="'MY CHILDREN ARE MY ENTIRE PROPERTY'" />
+
+            <Button
+                android:id="@+id/ch11pt8"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="FROLICSOME GOD" />
+            <Button
+                android:id="@+id/ch11pt9"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Tolerance" />
+            <Button
+                android:id="@+id/ch11pt10"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="'BENEFIT FROM CLOSENESS TO BABA'" />
+
+
+            <TextView
+                android:id="@+id/ch11pt1shanti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="\nOm Sri Sathya Sai Parabrahmane Namah\n \nOm Shanthi Shanthi Shanthi\n"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ch11pt1end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="End of Chapter 11" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

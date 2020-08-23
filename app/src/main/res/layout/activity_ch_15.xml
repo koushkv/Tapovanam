@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ch_15">
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="601dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ch15pt1quote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="'You may think that it is a marvellous phenomenon that the Supreme Being should come down to earth in human form. But if you are in My position, you will not be so wonder-struck. I am fully aware of the past, the present and the future of every one of you. That is why I do not get overwhelmed with pity. Not that I do not have compassion and love. My heart is certainly not made of stone. But if you shut the door of your heart, how can the waves of My sweet love penetrate beyond? You shed tears and say, 'Swami, I am blind. I yearn to see Your divine form. Doesn't my distress melt Your heart?' When you see a blind person's misery, you hearts are moved. Does not my heart too feel pity? But as I know the entire background including the distressed person's earlier lives, My response is naturally different. If you too come to know of things that are known to Me, your reaction to that person's agony will also be different. What one reaps in this life is but the fruits of the seeds that he himself had sowed in previous lives. So, I allow him to undergo what he derived from his earlier evil deeds. Of course, performance of extenuatingly good deeds will mitigate the suffering to some extent. I am not the cause of either your happiness or misery. You have yourself fashioned these two manacles that weigh you down.' \n \n- Baba"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/ch15pt1"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="Evil Begets Evil" />
+            <Button
+                android:id="@+id/ch15pt2"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="'PICKING UP THE FOOD THROWN AWAY THEN'" />
+            <Button
+                android:id="@+id/ch15pt3"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="OCEAN OF MERCY" />
+            <Button
+                android:id="@+id/ch15pt4"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="NAMA SMARAN AND ROOPA DHYAN" />
+            <Button
+                android:id="@+id/ch15pt5"
+                android:layout_width="307dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="RELEASE FROM RETRIBUTION" />
+
+            <TextView
+                android:id="@+id/ch15pt1shanti"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:text="\nOm Sri Sathya Sai Parabrahmane Namah\n \nOm Shanthi Shanthi Shanthi\n"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/ch15pt1end"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:paddingBottom="10dp"
+                android:text="End of Chapter 15" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
